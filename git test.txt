@@ -1,4 +1,10 @@
 firstv
 h2
+<<<<<<< HEAD
 h4
 h4
+=======
+git graph
+g
+t
+>>>>>>> refs/remotes/origin/main
