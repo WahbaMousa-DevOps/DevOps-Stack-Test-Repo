@@ -2,12 +2,13 @@ name: Test Build
 
 on:
   pull_request:
-    branches: [ main ]  # مهم جدا!
+    branches: [ main ]  
 
 jobs:
   test-build:
-    name: ✅ CI - Test Build  # هذا الاسم سيظهر في Add Checks
+    name: CI - Test Build  
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "✅ Test successful!"
+      - run: echo "Test successful!"
+#
